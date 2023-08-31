@@ -19,6 +19,7 @@ main {
     height: 80vh;
     width: 80%;
     max-height: 420px;
+    max-width: 900px;
     border: black 8px solid;
     border-radius: 1rem;
     display: flex;
