@@ -1,0 +1,44 @@
+* {
+    font-family: 'Comic Neue', cursive;;
+}
+
+html,
+body {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+main {
+    height: 80vh;
+    width: 80%;
+    max-height: 420px;
+    border: black 8px solid;
+    border-radius: 1rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.info {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: end;
+    font-style: italic;
+}
+
+.timezone {
+    color: rgb(164, 163, 163);
+}
+
+.time {
+    font-size: 5rem;
+    font-weight: 800;
+}
