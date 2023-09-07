@@ -4,6 +4,7 @@
   "description": "This app is to demonstrate the use of npm and external packages. It will use day.js which is a date/time package. Goal is to display the correct date and time to the user depending on where they are in the world.",
   "main": "script.js",
   "scripts": {
+    "start": "nodemon server.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {

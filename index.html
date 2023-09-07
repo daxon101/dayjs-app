@@ -15,24 +15,18 @@
   <body>
     <main>
       <div class="info"></div>
-      <div id="overlay">
+      <div id="overlay" class="hidden">
         <div class="modal-box">
           <div class="dropdown">
             <span>Select your timezone</span>
-            <div class="dropdown-content">
-              <p>Hello World!</p>
-              <p>Hello World!</p>
-              <p>Hello World!</p>
-              <p>Hello World!</p>
-            </div>
+            <div class="dropdown-content"></div>
           </div>
         </div>
       </div>
     </main>
-
-    <script src="./node_modules/dayjs/dayjs.min.js"></script>
-    <script src="./node_modules/dayjs/plugin/utc.js"></script>
-    <script src="./node_modules/dayjs/plugin/timezone.js"></script>
+    <script src="node_modules/dayjs/dayjs.min.js"></script>
+    <script src="node_modules/dayjs/plugin/timezone.js"></script>
+    <script src="node_modules/dayjs/plugin/utc.js"></script>
     <script type="module" src="./script.js"></script>
   </body>
 </html>
